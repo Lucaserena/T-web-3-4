@@ -1,0 +1,136 @@
+body {
+    background-image: url(http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png);
+    font-size: 8pt;
+    margin : 0;
+    font-family: Verdana;
+}
+#banner {
+    background-image: url(http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png);
+    text-align: center;
+}
+
+img {
+    height: 50px;
+}
+
+h1{
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 3px #999999;
+}
+
+#main {
+    margin:0 auto;
+    width: 800px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #999999;
+}
+
+#footer {
+    float: right;
+    opacity: 0.5;
+    position : fixed;
+    right:0;
+    bottom:0;
+}
+
+.general_overview {float: right;
+                   width: 250px;
+                   background-color: #A2B964;
+                   font-size: 8pt;
+                   font-family: Arial;
+}
+
+#rotten {
+    font-size: 48px;
+    font-weight: bold;
+    color : red;
+    background-image: url(http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png);
+    width : 550px;
+    height:83px;
+    background-repeat: repeat-x;
+    bottom: 10pt;
+    border-radius: 10px 0 0 0;
+   // vertical-align: central;
+}
+
+#rotten img {
+    height : 83px;
+}
+
+#locandina img{
+    width : 250px;
+    height: 500px;
+    right: 0px;
+    border-radius: 0 10px 0 0;
+}
+
+.recensione{
+    border-radius: 10px 10px 10px 10px;
+    border : 2px solid grey;  
+    font weight: bold;
+    background color: white;
+}
+
+q{
+    font-weight: bold;
+    font-size: 8pt;
+    margin-top: 8px;
+}
+
+.left_part{
+    width: 47%;
+    margin-left: 2%;
+    margin-top: 2%;
+    float:left;
+}
+#recensioni {
+    width: 550px;
+}
+
+.right_part{
+    width: 47%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+    float: right;
+}
+
+#numpage{
+    text-align:center;
+    background-color: #A2B964;
+    clear :both;
+    border: solid 5px #A2B964
+}
+.recensione img {
+    float: left;
+    padding: 0 8px 5px 0;
+
+}
+
+dt{
+    font-weight: bold;
+    margin-top: 10pt;
+    margin-left: 10pt;
+}
+
+.name img{
+    float:left; 
+    padding:  5px 5px 5px 5px;
+}
+
+.name{
+    clear:both;
+}
+
+#33p{
+
+  vertical-align: top;
+   }
+
+dd{
+    margin-right: 10pt;
+}
